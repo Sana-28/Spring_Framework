@@ -1,0 +1,14 @@
+package com.bridgeit.SpringDemo.Bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.bridgeit.SpringDemo.Interface.Language;
+
+@Component
+public class GreetingService {
+	
+	@Autowired
+	private Language language;
+
+}

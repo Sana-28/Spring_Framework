@@ -1,0 +1,11 @@
+package com.bridgeit.ShapeImplementation;
+
+import com.bridgeit.Shape.Shape;
+
+public class Circle implements Shape{
+
+	public void draw() {
+		
+		System.out.println("Inside Circle interface draw method..");
+	}
+}

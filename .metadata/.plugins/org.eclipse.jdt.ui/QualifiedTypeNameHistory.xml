@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.bridgeit.SpringDemo.Domain.HelloWorld"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.Resource"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.BeanFactory"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.xml.XmlBeanFactory"/>
+<fullyQualifiedTypeName name="com.bridgeit.SpringDemo.Bean.Student"/>
+<fullyQualifiedTypeName name="org.springframework.core.io.ClassPathResource"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.bridgeit.SpringDemo.Bean.MyRepository"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+<fullyQualifiedTypeName name="com.bridgeit.SpringDemo.InterfaceImplementation.Java"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.Bean"/>
+<fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+<fullyQualifiedTypeName name="com.bridgeit.SpringDemo.Config.AppConfig"/>
+<fullyQualifiedTypeName name="com.bridgeit.SpringDemo.Interface.Language"/>
+<fullyQualifiedTypeName name="com.bridgeit.SpringDemo.Bean.GreetingService"/>
+<fullyQualifiedTypeName name="com.bridgeit.SpringDemo.Bean.MyComponent"/>
+<fullyQualifiedTypeName name="com.bridgeit.dependencyinjection.bean.Person"/>
+<fullyQualifiedTypeName name="com.bridgeit.dependencyinjection.bean.Address"/>
+<fullyQualifiedTypeName name="com.bridgeit.Shape.Shape"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.portable.ApplicationException"/>
+<fullyQualifiedTypeName name="com.bridgeit.ShapeInterface.Shape"/>
+<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
+<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+<fullyQualifiedTypeName name="com.bridgeit.ShapeBean.Geometry"/>
+</qualifiedTypeNameHistroy>

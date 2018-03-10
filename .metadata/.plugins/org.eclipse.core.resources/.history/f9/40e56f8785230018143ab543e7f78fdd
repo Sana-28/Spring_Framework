@@ -1,0 +1,10 @@
+package com.bridgeit.SpringDemo.Bean;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class MyRepository {
+	
+	
+
+}

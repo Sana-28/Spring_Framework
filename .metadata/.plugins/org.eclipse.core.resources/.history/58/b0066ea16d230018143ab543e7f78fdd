@@ -1,0 +1,5 @@
+package com.bridgeit.SpringDemo.Domain;
+
+public class HelloWorldImplementation {
+
+}

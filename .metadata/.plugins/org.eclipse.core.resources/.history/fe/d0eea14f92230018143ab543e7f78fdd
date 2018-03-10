@@ -1,0 +1,5 @@
+package com.bridgeit.dependencyinjection.bean;
+
+public class Person {
+
+}

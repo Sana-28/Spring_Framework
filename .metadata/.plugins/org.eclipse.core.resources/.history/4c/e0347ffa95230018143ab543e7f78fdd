@@ -1,0 +1,14 @@
+package com.bridgeit.ShapeImplementation;
+
+import com.bridgeit.Shape.Shape;
+
+public class Geometry implements Shape{
+	
+	//Refrence variable of Interface
+	private Shape Shape;
+
+	public void draw() {
+	
+	}
+
+}

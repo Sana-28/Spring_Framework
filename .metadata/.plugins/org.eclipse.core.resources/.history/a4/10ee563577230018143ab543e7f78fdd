@@ -1,0 +1,6 @@
+package com.bridgeit.SpringDemo.Domain;
+
+public interface HelloWorld {
+	
+	void  sayHello(String name);
+}

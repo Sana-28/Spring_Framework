@@ -1,0 +1,16 @@
+package com.bridgeit.SpringDemo.InterfaceImplementation;
+
+import com.bridgeit.SpringDemo.Interface.Language;
+
+public class English implements Language{
+
+	public String getGreeting() {
+		// TODO Auto-generated method stub
+		return "Hello";
+	}
+
+	public String getBye() {
+		// TODO Auto-generated method stub
+		return "Bye;
+	}
+}

@@ -1,0 +1,17 @@
+package com.bridgeit.bean;
+
+public class Employee {
+
+	private int id;
+	private String name;
+
+	// Generate default constructor of super class
+	public Employee() {
+		System.out.println("Default constructor..");
+	}
+	
+	public Employee(int id){
+		this.id=id;
+	}
+
+}

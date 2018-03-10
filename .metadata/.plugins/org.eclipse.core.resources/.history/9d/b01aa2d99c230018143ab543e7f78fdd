@@ -1,0 +1,6 @@
+package com.bridgeit.ShapeBean;
+
+public class Geometry {
+
+	private Shape shape;
+}

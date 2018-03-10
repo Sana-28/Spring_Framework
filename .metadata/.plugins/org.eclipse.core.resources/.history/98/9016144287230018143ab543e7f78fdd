@@ -1,0 +1,5 @@
+package com.bridgeit.SpringDemo.Config;
+
+public class AppConfig {
+
+}

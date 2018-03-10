@@ -1,0 +1,5 @@
+package com.bridgeit.ShapeInterface;
+
+public interface Shape {
+
+}

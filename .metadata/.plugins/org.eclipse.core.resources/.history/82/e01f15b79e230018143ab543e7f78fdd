@@ -1,0 +1,19 @@
+package com.bridgeit.DependencyInjectionSetter;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.bridgeit.ShapeBean.Geometry;
+
+/**
+ * Hello world!
+ *
+ */
+public class App {
+	public static void main(String[] args) {
+		// System.out.println( "Hello World!" );
+
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("bean.xml");
+		Geometry geometry1 = applicationContext.getBean("geometryBean", Geometry.class);
+	}
+}

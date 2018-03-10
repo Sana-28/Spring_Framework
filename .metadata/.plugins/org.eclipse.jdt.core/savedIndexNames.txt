@@ -1,0 +1,2 @@
+INDEX VERSION 1.129+/home/bridgelabz/Spring-Framework/.metadata/.plugins/org.eclipse.jdt.core
+1453455632.index
