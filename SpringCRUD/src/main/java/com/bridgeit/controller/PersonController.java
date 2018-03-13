@@ -1,0 +1,21 @@
+package com.bridgeit.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.method.support.ModelAndViewContainer;
+
+import com.bridgeit.model.Person;
+import com.bridgeit.serviceImpl.PersonService;
+
+@Controller
+public class PersonController {
+
+	private PersonService personService;
+
+	@RequestMapping(value = "/person")
+	public String addPerson(Person person) {
+
+		this.personService.addPerson(person);
+		return "redirect:/persons";
+	}
+}

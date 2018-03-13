@@ -1,0 +1,36 @@
+package com.bridgeit.controller;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.bridgeit.service.IUserService;
+
+@Controller
+public class HelloWorldController
+ {
+
+	@Autowired
+	IUserService userService;
+	
+	public ModelAndView saveUser(Model model){
+
+		userService.saveUserObject(user);
+		
+		return new ModelAndView();
+	}
+
+	/*public ModelAndView hello(HttpServletRequest request, HttpServletResponse response)
+			throws Exception {
+
+		ModelAndView model = new ModelAndView("index");
+
+		model.addObject("msg", "hello....");
+
+		return model;
+
+	}*/
+
+}

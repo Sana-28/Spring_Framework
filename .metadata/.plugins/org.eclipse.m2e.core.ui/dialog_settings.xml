@@ -44,6 +44,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/bridgelabz/Spring-Framework/Spring-MVCDemo/src/main/java/com/bridgeit/controller/HelloController.java"/>
+			<item value="/home/bridgelabz/Spring-Framework/ConstructorInjectionCollection"/>
+			<item value="/home/bridgelabz/Spring-Framework/ConstructorInjection"/>
 			<item value="/home/bridgelabz/Spring-Framework/DependencyInjectionConstructor"/>
 			<item value="/home/bridgelabz/Spring-Framework/dependencyinjection"/>
 			<item value="/home/bridgelabz/Spring-Framework/SpringDemoAnnotation"/>
@@ -60,6 +63,11 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.bridgeit.Spring_MVC"/>
+			<item value="com.bridgeit.Demo"/>
+			<item value="com.bridgeit.ConstructorInjectionCollection"/>
+			<item value="com.bridgeit.ConstructorInjectionDependentObjects"/>
+			<item value="com.bridgeit.ConstructorInjection"/>
 			<item value="com.bridgeit.DependencyInjectionSetter"/>
 			<item value="com.bridgeit.DependencyInjectionConstructor"/>
 			<item value="com.bridgeit.dependencyinjection"/>
@@ -71,6 +79,11 @@
 			<item value="com.bridgeit.SpringDemo"/>
 		</list>
 		<list key="artifactId">
+			<item value="Spring-MVC"/>
+			<item value="Spring-MVCDemo"/>
+			<item value="ConstructorInjectionCollection"/>
+			<item value="ConstructorInjectionDependentObjects"/>
+			<item value="ConstructorInjection"/>
 			<item value="DependencyInjectionSetter"/>
 			<item value="DependencyInjectionConstructor"/>
 			<item value="dependencyinjection"/>

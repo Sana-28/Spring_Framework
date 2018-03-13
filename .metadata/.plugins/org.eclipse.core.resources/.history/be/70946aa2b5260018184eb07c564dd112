@@ -1,0 +1,28 @@
+package com.bridgeit.serviceImpl;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.annotations.common.util.impl.LoggerFactory;
+import org.hibernate.bytecode.buildtime.spi.Logger;
+
+import com.bridgeit.model.Person;
+import com.bridgeit.service.IPersonService;
+
+public class PersonService implements IPersonService {
+
+	private static final Logger logger=(Logger) LoggerFactory.logger(PersonService.class);
+	private SessionFactory sessionFactory;
+
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	public void addPerson(Person person) {
+
+		Session session = sessionFactory.getCurrentSession();
+		session.save(person);
+		logger.info("Person saved"+person);
+		//System.out.println("Person saved successfully..");
+		// session.persist(person);
+	}
+}

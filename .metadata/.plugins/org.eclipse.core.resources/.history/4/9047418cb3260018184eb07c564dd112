@@ -1,0 +1,23 @@
+package com.bridgeit.serviceImpl;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+
+import com.bridgeit.model.Person;
+import com.bridgeit.service.IPersonService;
+
+public class PersonService implements IPersonService {
+
+	private SessionFactory sessionFactory;
+
+	public void setSessionFactory(SessionFactory sessionFactory) {
+		this.sessionFactory = sessionFactory;
+	}
+
+	public void addPerson(Person person) {
+
+		Session session = sessionFactory.getCurrentSession();
+		session.save(person);
+		// session.persist(person);
+	}
+}

@@ -1,0 +1,5 @@
+package com.bridgeit.service.serviceimpl;
+
+public class UserServiceImpl {
+
+}

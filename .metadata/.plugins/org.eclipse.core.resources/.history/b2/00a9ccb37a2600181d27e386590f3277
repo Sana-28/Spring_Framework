@@ -1,0 +1,19 @@
+package com.bridgeit.service.serviceimpl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bridgeit.dao.UserDao;
+import com.bridgeit.model.User;
+import com.bridgeit.service.IUserService;
+
+public class UserServiceImpl implements IUserService{
+
+	@Autowired
+	UserDao userDao;
+	
+	@Override
+	public void saveUserObject(User user) {
+		userDao.saveUser(user);
+	}
+
+}

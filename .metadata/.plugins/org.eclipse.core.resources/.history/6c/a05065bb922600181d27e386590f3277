@@ -1,0 +1,16 @@
+package com.bridgeit.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class HelloController {
+
+	public String HelloController() {
+		ModelAndView modelAndView = new ModelAndView();
+		modelAndView.addObject("message", "Hello World!");
+		return modelAndView;
+
+	}
+
+}
