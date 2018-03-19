@@ -8,19 +8,15 @@
 		<item value="202" key="dialogHeight"/>
 		<item value="302" key="dialogWidth"/>
 		<list key="textEntries">
-			<item value="1"/>
 			<item value="2"/>
 		</list>
 		<list key="orderedElements">
-			<item value="org.eclipse.debug.ui.commands.RemoveAllBreakpoints"/>
 			<item value="org.eclipse.ui.views.ResourceNavigator"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.ui.commands"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textArray">
-			<item value="remove all "/>
 			<item value="nav"/>
 			<item value="navi"/>
 		</list>

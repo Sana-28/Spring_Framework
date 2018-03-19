@@ -1,7 +1,0 @@
-package com.bridgeit.Shape;
-
-public interface Shape {
-	
-	void draw();
-
-}

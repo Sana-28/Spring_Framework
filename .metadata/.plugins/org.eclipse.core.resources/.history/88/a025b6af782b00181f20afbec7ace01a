@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bean id="hibernateTemplate" class="org.springframework.orm.hibernate3.HibernateTemplate">
+	<property name="sessionFactory">
+		<ref bean="sessionFactory" />
+	</property>
+</bean>

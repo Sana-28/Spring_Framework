@@ -1,7 +1,0 @@
-package com.bridgeit.ShapeImplementation;
-
-import com.bridgeit.Shape.Shape;
-
-public class Rectangle implements Shape{
-
-}

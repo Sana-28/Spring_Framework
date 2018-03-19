@@ -1,0 +1,22 @@
+package com.bridgeit.SpringHibernateIntegration;
+
+import org.springframework.orm.hibernate3.HibernateTemplate;
+
+import com.bridgeit.model.Candidate;
+
+public class App {
+
+	HibernateTemplate template;
+
+	public void setTemplate(HibernateTemplate template) {
+		this.template = template;
+	}
+
+	public void saveCandidate(Candidate c) {
+		//template.save(c);
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

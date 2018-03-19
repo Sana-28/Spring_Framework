@@ -1,0 +1,16 @@
+package com.bridgeit.SpringHibernateIntegration;
+
+import org.springframework.orm.hibernate3.HibernateTemplate;
+
+public class App {
+
+	HibernateTemplate template;
+
+	public void setTemplate(HibernateTemplate template) {
+		this.template = template;
+	}
+
+	public static void main(String[] args) {
+
+	}
+}
