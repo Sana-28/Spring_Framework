@@ -1,4 +1,4 @@
 browser-choice=1
 browsers=<?xml version\="1.0" encoding\="UTF-8"?>\n<web-browsers current\="2">\n<system/>\n<external location\="/usr/bin/firefox" name\="Firefox"/>\n<external location\="/usr/bin/google-chrome" name\="Chrome"/>\n</web-browsers>
 eclipse.preferences.version=1
-internalWebBrowserHistory=http\://localhost\:8080/Spring-MVC/WEB-INF/classes/com/bridgeit/controller/HelloWorldController.java|*|http\://www.springframework.org/schema/beans/spring-beans.xsd"|*|http\://localhost\:8080/Spring-MVC/|*|
+internalWebBrowserHistory=http\://localhost\:8080/SpringLogin/|*|http\://localhost\:8080/SpringLogin/WEB-INF/views/welcomePage.jsp|*|http\://localhost\:8080/Spring_MVCAnnotation/WEB-INF/welcome.jsp|*|http\://localhost\:8080/SpringLogin/WEB-INF/views/loginPage.jsp|*|http\://localhost\:8080/Spring-MVC/WEB-INF/classes/com/bridgeit/controller/HelloWorldController.java|*|http\://www.springframework.org/schema/beans/spring-beans.xsd"|*|http\://localhost\:8080/Spring-MVC/|*|

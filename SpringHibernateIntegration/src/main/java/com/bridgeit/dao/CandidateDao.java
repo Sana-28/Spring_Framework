@@ -13,6 +13,6 @@ public class CandidateDao {
 	}
 
 	public void saveCandidate(Candidate c) {
-		 template.save(c);
+		// template.save(c);
 	}
 }

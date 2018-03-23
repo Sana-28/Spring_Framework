@@ -149,7 +149,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="/home/bridgelabz/Spring-Framework/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/bridgelabz/Spring-Framework/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SpringCRUD" path="/SpringCRUD" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringCRUD"/></Host>
+      <Context docBase="/home/bridgelabz/Spring-Framework/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/ROOT" path="" reloadable="false"/><Context docBase="/home/bridgelabz/Spring-Framework/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/SpringRestExample" path="/SpringRestExample" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringRestExample"/></Host>
     </Engine>
   </Service>
 </Server>

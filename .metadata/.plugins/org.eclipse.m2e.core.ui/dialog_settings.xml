@@ -44,6 +44,9 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/home/bridgelabz/Spring-Framework/SpringRestExample"/>
+			<item value="/home/bridgelabz/Spring-Framework/SpringHibernateIntegration/src/main/java/com/bridgeit/dao/CandidateDao.java"/>
+			<item value="/home/bridgelabz/Spring-Framework/Spring-MVC"/>
 			<item value="/home/bridgelabz/Spring-Framework/SpringDemoXML"/>
 			<item value="/home/bridgelabz/Spring-Framework/Spring-MVCDemo/src/main/java/com/bridgeit/controller/HelloController.java"/>
 			<item value="/home/bridgelabz/Spring-Framework/ConstructorInjectionCollection"/>
@@ -63,6 +66,11 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.bridgeit.TestSpringDb"/>
+			<item value="com.bridgeit.SpringRestExample"/>
+			<item value="com.bridgeit.SpringLogin"/>
+			<item value="com.bridgeit.SpringBasic"/>
+			<item value="com.bridgeit.SpringHibernateIntegration"/>
 			<item value="com.bridgeit.SpringCRUD"/>
 			<item value="com.bridgeit.Spring_MVC"/>
 			<item value="com.bridgeit.Demo"/>
@@ -73,13 +81,17 @@
 			<item value="com.bridgeit.DependencyInjectionConstructor"/>
 			<item value="com.bridgeit.dependencyinjection"/>
 			<item value="com.bridgeit.SpringDemo.SpringDemoAnnotation"/>
-			<item value="com.bridgeit.SpringDemo.SpringDemo"/>
 		</list>
 		<list key="groupId">
 			<item value="com.bridgeit"/>
 			<item value="com.bridgeit.SpringDemo"/>
 		</list>
 		<list key="artifactId">
+			<item value="TestSpringDb"/>
+			<item value="SpringRestExample"/>
+			<item value="SpringLogin"/>
+			<item value="SpringBasic"/>
+			<item value="SpringHibernateIntegration"/>
 			<item value="SpringCRUD"/>
 			<item value="Spring-MVC"/>
 			<item value="Spring-MVCDemo"/>
@@ -90,7 +102,6 @@
 			<item value="DependencyInjectionConstructor"/>
 			<item value="dependencyinjection"/>
 			<item value="SpringDemoAnnotation"/>
-			<item value="SpringDemo"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

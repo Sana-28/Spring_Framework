@@ -1,9 +1,0 @@
-package com.bridgeit.dao;
-
-public class PersonDao {
-	
-	public void savePerson(Person person){
-		
-	}
-
-}

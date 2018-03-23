@@ -1,7 +1,0 @@
-package com.bridgeit.service;
-
-public interface IPersonService {
-	
-	public void savePerson(Person person);
-
-}

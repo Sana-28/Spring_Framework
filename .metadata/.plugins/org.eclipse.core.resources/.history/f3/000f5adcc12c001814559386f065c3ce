@@ -1,0 +1,16 @@
+package controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloController {
+
+	@RequestMapping(value = "/hello/{id}", method = RequestMethod.GET)
+	public ResponseEntity<Void> hello(@PathVariable int id) {
+		if (id == 1) {
+			return new ResponseEntity<Void>(HttpStatus.OK);
+		} else {
+			return new ResponseEntity<Void>(HttpStatus.CONFLICT);
+		}
+	}
+}
